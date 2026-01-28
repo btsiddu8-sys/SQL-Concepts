@@ -1,11 +1,1 @@
-
-"From / Join  ------------1
-Where         --------------2
-Group by     ----------------3
-Having           ---------------- 4
-Select                  -------------- 5
-Distinct                    --------------6
-WINDOW FUNCTIONS (OVER ...)  ---7
-Order By                    --------------8
-Offset/ Limit                     ------------9
-"
+From--> Join --> Where --> Group by --> Having --> Select --> Distinct --> WINDOW FUNCTIONS (OVER ...)  --> Order By --> Offset --> Limit
