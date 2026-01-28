@@ -11,5 +11,5 @@ Numbers are the type of data which gets stored inside varable
 ```python
 a=10; b=5.5;
 c=a+b
-type(a)
+type(a) //Type is used to check datatype
 type(b)
