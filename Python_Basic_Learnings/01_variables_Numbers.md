@@ -1,5 +1,11 @@
 ## What is variables
+1) Variables are containers that store data in a Python program
 
+### Rules of naming variables correctly,
+1) You can not use reserve words as variable names (e.g. def, True etc.)
+2) Variable names must start with a letter or an underscore _
+3) It cannot contain spaces or special characters (@, #, $, %, etc.)
+4) Underscore _ is a valid character and can be present at any place in a variable name
 
 
 
