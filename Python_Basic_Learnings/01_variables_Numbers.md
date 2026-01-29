@@ -7,9 +7,6 @@
 3) It cannot contain spaces or special characters (@, #, $, %, etc.)
 4) Underscore _ is a valid character and can be present at any place in a variable name
 
-
-
-
 ## What is numbers 
 Numbers are the type of data which gets stored inside varable
 ### Number types
@@ -33,6 +30,15 @@ type(b)
 ```
 
 ## What is string
-Strings are the one type of data used to store text format data
-Strings are immutable once created cannot be changable
-we can acces specific string using index's
+1) In Python, strings are immutable, meaning they cannot be changed once created.
+2) Access specific characters or substrings in Python using indexing (e.g., name[0]) and slicing (e.g., name[1 : 5])
+3) Use string formatting techniques like f-strings (e.g., f'{variable}') for easier and more readable string composition in Python
+4) Python provides built-in methods for strings, such as .upper(), .lower(), .split(), and .strip()
+
+
+
+
+
+
+
+
