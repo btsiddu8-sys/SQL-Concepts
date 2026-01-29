@@ -12,6 +12,16 @@
 
 ## What is numbers 
 Numbers are the type of data which gets stored inside varable
+### Number types
+1) Integer numbers store whole numbers (without decimal part), e.g. 57
+2) Float numbers store fractional numbers with whole and decimal part, e.g. 57.23
+3) type(variable_name) can be used to detect the data type of a variable
+4) / operator is used for division whereas // is used to retrieve integer part of the division
+5) % is a module operator, it returns the remainder of a division operation
+6) x**y will return x raised to the power of y
+7) You can do type casting using functions such as float(), int(), str() etc.
+8) float(”10.2”) will convert string value “10.2” to a float value 10.2
+9) math is a handy module in Python that allows you to run different functions such as sqrt, floor, ceil etc.
 
 ### Example
 
