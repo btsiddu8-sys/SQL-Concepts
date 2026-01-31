@@ -46,8 +46,13 @@ for month in monthly_sales:
     else:
         print(f"{month} is more than cutoff")
 ```
-
-
+ ### Example 3
+ ```python
+n=0
+while n<10:
+    print(n)
+    n=n+1
+```
 
 
 
