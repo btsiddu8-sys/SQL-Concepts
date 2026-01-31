@@ -34,6 +34,7 @@ list=['siddu',123,1.34]
           total_amt=total_amt+amount
          print(f"Total Amount: {total_amt}")
    ```
+```python
    ### Example 2
 monthly_sales=[100,200,500,1000]
 cutoff=400
@@ -44,7 +45,7 @@ for month in monthly_sales:
         continue
     else:
         print(f"{month} is more than cutoff")
-
+```
 
 
 
