@@ -29,8 +29,25 @@ list=['siddu',123,1.34]
    ### Example 1
    ```python
    amt=[1,2,3,4,5]
-   total_amt=0
-   for amount in amt:
-    total_amt=total_amt+amount
-   print(f"Total Amount: {total_amt}")
+      total_amt=0
+         for amount in amt:
+          total_amt=total_amt+amount
+         print(f"Total Amount: {total_amt}")
    ```
+   ### Example 2
+monthly_sales=[100,200,500,1000]
+cutoff=400
+for month in monthly_sales:
+    if month < cutoff:
+        print(f"{month} is less than cutoff")
+       # break
+        continue
+    else:
+        print(f"{month} is more than cutoff")
+
+
+
+
+
+
+   
