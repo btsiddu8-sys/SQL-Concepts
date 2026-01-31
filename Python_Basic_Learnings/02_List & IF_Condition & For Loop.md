@@ -29,8 +29,8 @@ list=['siddu',123,1.34]
    ### Example 1
    ```python
    amt=[1,2,3,4,5]
-total_amt=0
-for amount in amt:
+   total_amt=0
+   for amount in amt:
     total_amt=total_amt+amount
-print(f"Total Amount: {total_amt}")
-```
+   print(f"Total Amount: {total_amt}")
+   ```
