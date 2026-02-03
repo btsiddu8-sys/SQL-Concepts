@@ -13,6 +13,14 @@ A list is a collection of items that are ordered, mutable (changeable), and allo
 list=['siddu',123,1.34]
 ```
 
+### 2. Accessing List Elements
+You can access individual elements in a list using indexing. Remember that Python uses zero-based indexing, so the first item is at index 0
+```python
+fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Output: apple
+print(fruits[2])  # Output: cherry
+```
+
 ## 2) IF Condition
 1) If statements execute a block of code only if the condition is true, enabling conditional logic in programs.
 2) Use elif to specify additional conditions if the initial if condition fails, allowing for multiple sequential checks.
