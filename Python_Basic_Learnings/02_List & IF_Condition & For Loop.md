@@ -33,12 +33,33 @@ Changing a specific element
 fruits[1] = "orange"
 print(fruits)  # Output: ['apple', 'orange', 'cherry']
 ```
-### Adding elements:
+### 4 Adding elements:
 append(): Adds an element to the end of the list.
 ```python
 fruits.append("grape")
 print(fruits)  # Output: ['apple', 'orange', 'cherry', 'grape']
 ```
+### 5 insert(): Inserts an element at a specific index.
+```python
+fruits.insert(1, "kiwi")
+print(fruits)  # Output: ['apple', 'kiwi', 'orange', 'cherry']
+```
+### 6 Removing elements:
+remove(): Removes the first occurrence of an element.
+```python
+fruits.remove("orange")
+print(fruits)  # Output: ['apple', 'kiwi', 'cherry']
+```
+### 7 pop(): Removes the element at a specific index (or the last item if no index is provided).
+```python
+fruits.pop()  # Removes the last item
+print(fruits)  # Output: ['apple', 'kiwi']
+
+fruits.pop(0)  # Removes the first item
+print(fruits)  # Output: ['kiwi']
+```
+
+
 ## 2) IF Condition
 1) If statements execute a block of code only if the condition is true, enabling conditional logic in programs.
 2) Use elif to specify additional conditions if the initial if condition fails, allowing for multiple sequential checks.
