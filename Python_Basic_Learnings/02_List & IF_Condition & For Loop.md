@@ -25,6 +25,14 @@ print(fruits[2])  # Output: cherry
 print(fruits[-1])  # Output: cherry
 print(fruits[-2])  # Output: banana
 ```
+### 3. Modifying Lists
+Lists are mutable, which means you can change the value of items in a list.
+#### 
+Changing a specific element
+```python
+fruits[1] = "orange"
+print(fruits)  # Output: ['apple', 'orange', 'cherry']
+```
 
 ## 2) IF Condition
 1) If statements execute a block of code only if the condition is true, enabling conditional logic in programs.
