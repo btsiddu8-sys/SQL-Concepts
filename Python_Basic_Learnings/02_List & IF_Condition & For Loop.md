@@ -1,4 +1,5 @@
 ## 1) List
+A list is a collection of items that are ordered, mutable (changeable), and allow duplicate elements. Lists can hold items of different data types, such as integers, strings, or even other lists.
 01) Lists allow you to store sequential data.
 2) Lists are ordered, meaning each item has a fixed position unless explicitly changed.
 3) Python lists can hold different data types in a single list, including numbers, strings, and other
