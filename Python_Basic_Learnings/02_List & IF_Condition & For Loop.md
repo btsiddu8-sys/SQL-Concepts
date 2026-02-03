@@ -20,6 +20,11 @@ fruits = ["apple", "banana", "cherry"]
 print(fruits[0])  # Output: apple
 print(fruits[2])  # Output: cherry
 ```
+### You can also use negative indexing to access elements from the end of the list:
+```python
+print(fruits[-1])  # Output: cherry
+print(fruits[-2])  # Output: banana
+```
 
 ## 2) IF Condition
 1) If statements execute a block of code only if the condition is true, enabling conditional logic in programs.
