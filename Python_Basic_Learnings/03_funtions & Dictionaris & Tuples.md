@@ -1,7 +1,7 @@
 ## Funtions
 
 
-### Exaample
+### Exaample 1
 ```python
 
 siddu_expence=[100,500,800,200]
@@ -30,3 +30,37 @@ print(total_siddu_expence)
 total_nanuve_expence=find_total(nanuve_expence)
 print(total_nanuve_expence)
 ```
+
+### Exaample 2
+```python
+def find_cylinder_radius(radius,height): #def find_cylinder_radius(radius,height=7): define default value
+    print(radius)
+    print(height)
+    volume=3.14*(radius**2)*height
+    #print(volume)
+    return volume
+r=10
+h=7
+#v=(find_cylinder_radius(r,h))
+v=find_cylinder_radius(height=h,radius=r) # To specify parametername & variable
+print(v)
+
+def sum_all(*args):
+    total=0
+    for arg in args:
+        total+=arg
+    return total
+
+total=sum_all(1,2,3,4,2.3)
+print(total)
+
+def company_info(**kwargs):
+    for key in kwargs:
+        print(f"{key}: {kwargs[key]}")
+
+company_info(name="Styra",ceo="subodh",revenue="100 cr")
+```
+
+
+
+
