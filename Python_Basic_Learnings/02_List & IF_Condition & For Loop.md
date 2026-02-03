@@ -33,7 +33,12 @@ Changing a specific element
 fruits[1] = "orange"
 print(fruits)  # Output: ['apple', 'orange', 'cherry']
 ```
-
+### Adding elements:
+append(): Adds an element to the end of the list.
+```python
+fruits.append("grape")
+print(fruits)  # Output: ['apple', 'orange', 'cherry', 'grape']
+```
 ## 2) IF Condition
 1) If statements execute a block of code only if the condition is true, enabling conditional logic in programs.
 2) Use elif to specify additional conditions if the initial if condition fails, allowing for multiple sequential checks.
