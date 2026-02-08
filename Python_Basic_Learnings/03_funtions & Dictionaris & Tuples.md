@@ -60,7 +60,7 @@ def company_info(**kwargs):
 
 company_info(name="Styra",ceo="subodh",revenue="100 cr")
 ```
-##Tuple
+## Tuple
 ``` python
 tpl=(5,10,20)
 print(tpl[0])
