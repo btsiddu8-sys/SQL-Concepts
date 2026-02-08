@@ -61,7 +61,7 @@ def company_info(**kwargs):
 company_info(name="Styra",ceo="subodh",revenue="100 cr")
 ```
 
-## Dictnories
+## Dictionary
 
 
 
