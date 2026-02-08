@@ -69,6 +69,9 @@ print(type(tpl))
 
 ## Dictionary
 
-
-
+``` python
+d={'siddu':7624882767,'appa':9880108856}
+print(d)
+print(type(d))
+```
 
