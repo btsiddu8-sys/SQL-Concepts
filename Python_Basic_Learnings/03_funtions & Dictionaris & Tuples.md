@@ -67,10 +67,21 @@ tpl=(5,10,20)
 print(tpl[0])
 print(type(tpl))
 ```
-### Creating a Tuple with One Element:
+#### Creating a Tuple with One Element:
 To create a tuple with only one element, include a trailing comma:
 ``` python
 single_element_tuple = ("apple",)
+```
+####  Tuple Operations
+Although tuples are immutable, you can perform various operations with them.
+
+Tuple Concatenation:
+You can combine two or more tuples using the + operator.
+``` python
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+combined_tuple = tuple1 + tuple2
+print(combined_tuple)  # Output: (1, 2, 3, 4, 5, 6)
 ```
 ## Dictionary
 
