@@ -160,13 +160,17 @@ clear(): Removes all elements from the set.
 fruits_set.clear()
 ```
 ## Differences Between Lists, Tuples, and Sets
-Feature	List	Tuple	Set
-Ordering	Ordered	Ordered	Unordered
-Mutability	Mutable	Immutable	Mutable
-Duplicates	Allows duplicates	Allows duplicates	No duplicates
-Indexing	Supports indexing	Supports indexing	No indexing
-Operations	List operations	Tuple operations	Set operations
-Common Uses	General collection	Fixed data	Unique items
+## Differences Between Lists, Tuples, and Sets
+
+| Feature      | List               | Tuple              | Set            |
+|-------------|--------------------|--------------------|----------------|
+| Ordering    | Ordered            | Ordered            | Unordered      |
+| Mutability  | Mutable            | Immutable          | Mutable        |
+| Duplicates  | Allows duplicates  | Allows duplicates  | No duplicates  |
+| Indexing    | Supports indexing  | Supports indexing  | No indexing    |
+| Operations  | List operations    | Tuple operations   | Set operations |
+| Common Uses | General collection | Fixed data         | Unique items   |
+
 
 
 
