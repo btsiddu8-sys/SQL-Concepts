@@ -228,5 +228,6 @@ del karnataka_food["Mangaluru"]
 
 clear(): Empties the dictionary.
 karnataka_food.clear()
+
 ```
 
