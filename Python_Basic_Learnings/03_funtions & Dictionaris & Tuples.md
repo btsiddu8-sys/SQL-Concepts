@@ -61,12 +61,17 @@ def company_info(**kwargs):
 company_info(name="Styra",ceo="subodh",revenue="100 cr")
 ```
 ## Tuple
+A tuple is a collection of items that is ordered and immutable (unchangeable). Tuples are similar to lists, but once a tuple is created, you cannot modify it. They are often used to group related data together.
 ``` python
 tpl=(5,10,20)
 print(tpl[0])
 print(type(tpl))
 ```
-
+### Creating a Tuple with One Element:
+To create a tuple with only one element, include a trailing comma:
+``` python
+single_element_tuple = ("apple",)
+```
 ## Dictionary
 
 ``` python
