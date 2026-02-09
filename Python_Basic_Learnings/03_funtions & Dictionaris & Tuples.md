@@ -133,7 +133,32 @@ The difference between two sets returns elements that are in the first set but n
 ``` python
 difference_set = set1 - set2  # Output: {1, 2}
 ```
+Symmetric Difference:
+The symmetric difference returns elements that are in either of the sets but not in both.
+``` python
+sym_diff_set = set1 ^ set2  # Output: {1, 2, 4, 5}
+```
+Set Methods
+Sets come with several useful methods for performing common tasks.
+``` python
+add(): Adds an element to the set.
 
+fruits_set.add("orange")
+print(fruits_set)  # Output: {'apple', 'banana', 'cherry', 'orange'}
+
+remove(): Removes a specified element from the set. Raises an error if the element does not exist.
+fruits_set.remove("banana")
+print(fruits_set)  # Output: {'apple', 'cherry'}
+
+discard(): Removes a specified element without raising an error if it does not exist.
+fruits_set.discard("banana")  # No error if "banana" is not in the set
+
+pop(): Removes a random element from the set.
+fruits_set.pop()
+
+clear(): Removes all elements from the set.
+fruits_set.clear()
+```
 
 
 
