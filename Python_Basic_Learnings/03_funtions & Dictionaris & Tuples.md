@@ -229,4 +229,26 @@ del karnataka_food["Mangaluru"]
 clear(): Empties the dictionary.
 karnataka_food.clear()
 ```
+#### Dictionary Methods
+Here are some common methods available for dictionaries:
+```python
+keys(): Returns all the keys in the dictionary.
+print(karnataka_food.keys())  # Output: dict_keys(['Bengaluru', 'Mysuru', 'Mangaluru'])
+
+values(): Returns all the values in the dictionary.
+print(karnataka_food.values())  # Output: dict_values(['Bisi Bele Bath', 'Mysore Pak', 'Neer Dosa'])
+
+items(): Returns key-value pairs as tuples.
+print(karnataka_food.items())  # Output: dict_items([('Bengaluru', 'Bisi Bele Bath'), ('Mysuru', 'Mysore Pak'), ('Mangaluru', 'Neer Dosa')])
+
+update(): Updates the dictionary with another dictionary or iterable.
+new_dishes = {"Hubballi": "Girmit"}
+karnataka_food.update(new_dishes)
+
+6. Dictionary Characteristics
+Unordered: Dictionary keys are not stored in any particular order.
+Mutable: You can change, add, or remove items.
+Keys Must Be Immutable: Keys in a dictionary must be of a data type that is immutable, such as a string, number, or tuple.
+Unique Keys: A dictionary cannot have duplicate keys. If you try to add a duplicate key, the latest value will overwrite the previous one
+```
 
