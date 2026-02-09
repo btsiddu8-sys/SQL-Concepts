@@ -106,6 +106,10 @@ index(): Returns the index of the first occurrence of an element.
 my_tuple = ("apple", "banana", "cherry")
 print(my_tuple.index("banana"))  # Output: 1
 ```
+#### Advantages of Using Tuples
+1) Immutable: This property ensures that tuple data cannot be modified after creation, making them useful for fixed data.
+2) Faster than Lists: Due to immutability, tuples are generally faster than lists.
+3) Can Be Used as Keys in Dictionaries: Since tuples are hashable, they can be used as keys in dictionaries, unlike lists.
 
 
 
