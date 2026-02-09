@@ -1,4 +1,4 @@
-## Funtions
+## 1) Funtions
 
 
 ### Exaample 1
@@ -60,7 +60,7 @@ def company_info(**kwargs):
 
 company_info(name="Styra",ceo="subodh",revenue="100 cr")
 ```
-## Tuple
+## 2) Tuple
 A tuple is a collection of items that is ordered and immutable (unchangeable). Tuples are similar to lists, but once a tuple is created, you cannot modify it. They are often used to group related data together.
 ``` python
 tpl=(5,10,20)
@@ -83,7 +83,19 @@ tuple2 = (4, 5, 6)
 combined_tuple = tuple1 + tuple2
 print(combined_tuple)  # Output: (1, 2, 3, 4, 5, 6)
 ```
-## Dictionary
+
+#### Tuple Repetition:
+You can repeat a tuple multiple times using the * operator.
+```python
+repeated_tuple = (1, 2) * 3
+print(repeated_tuple)  # Output: (1, 2, 1, 2, 1, 2)
+```
+#### Checking Membership:
+You can check if an item exists in a tuple using the in operator.
+```python
+print("apple" in fruits)  # Output: True
+```
+## 3) Dictionary
 
 ``` python
 d={'siddu':7624882767,'appa':9880108856}
