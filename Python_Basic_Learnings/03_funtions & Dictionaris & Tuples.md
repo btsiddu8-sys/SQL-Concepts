@@ -176,6 +176,9 @@ fruits_set.clear()
 
 
 ## 4) Dictionary
+A dictionary in Python is a collection of key-value pairs. Each key in a dictionary is associated with a value, and you can retrieve or manipulate data using the key. Unlike lists and tuples, dictionaries are unordered and mutable (changeable).
+Creating a Dictionary
+You can create a dictionary using curly braces {} or the dict() function
 
 ``` python
 d={'siddu':7624882767,'appa':9880108856}
