@@ -114,12 +114,31 @@ print(my_tuple.index("banana"))  # Output: 1
 
 
 
+## 3) Set Operations
+Sets support mathematical operations like union, intersection, and difference.
+Union:
+The union of two sets combines all elements from both sets, removing duplicates.
+``` python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2  # Output: {1, 2, 3, 4, 5}
+```
+Intersection:
+The intersection of two sets returns elements that are common to both sets.
+``` python
+intersection_set = set1 & set2  # Output: {3}
+```
+Difference:
+The difference between two sets returns elements that are in the first set but not in the second.
+``` python
+difference_set = set1 - set2  # Output: {1, 2}
+```
 
 
 
 
 
-## 3) Dictionary
+## 4) Dictionary
 
 ``` python
 d={'siddu':7624882767,'appa':9880108856}
