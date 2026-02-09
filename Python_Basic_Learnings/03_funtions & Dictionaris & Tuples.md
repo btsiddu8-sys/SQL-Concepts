@@ -176,10 +176,57 @@ fruits_set.clear()
 
 
 ## 4) Dictionary
+A dictionary in Python is a collection of key-value pairs. Each key in a dictionary is associated with a value, and you can retrieve or manipulate data using the key. Unlike lists and tuples, dictionaries are unordered and mutable (changeable).
+
+Creating a Dictionary
+You can create a dictionary using curly braces {} or the dict() function.
 
 ``` python
 d={'siddu':7624882767,'appa':9880108856}
 print(d)
 print(type(d))
+
+
+Let's create a dictionary of famous cities in Karnataka and their popular dishes.
+
+karnataka_food = {
+    "Bengaluru": "Bisi Bele Bath",
+    "Mysuru": "Mysore Pak",
+    "Mangaluru": "Neer Dosa"
+}
+2. Accessing Dictionary Elements
+To access the values stored in a dictionary, you use the key.
+
+Example:
+print(karnataka_food["Mysuru"])  # Output: Mysore Pak
+You can also use the get() method to access values, which is safer because it doesn’t throw an error if the key doesn’t exist.
+
+print(karnataka_food.get("Mangaluru"))  # Output: Neer Dosa
+print(karnataka_food.get("Shivamogga", "Not Found"))  # Output: Not Found
+
+
+3. Adding and Updating Dictionary Elements
+You can add new key-value pairs or update existing values in a dictionary.
+
+Adding an Item:
+karnataka_food["Shivamogga"] = "Kadubu"
+print(karnataka_food)
+Updating an Item:
+karnataka_food["Bengaluru"] = "Ragi Mudde"
+
+
+4. Removing Elements from a Dictionary
+You can remove items from a dictionary using several methods:
+
+pop(): Removes the specified key and returns the associated value.
+mysuru_food = karnataka_food.pop("Mysuru")
+print(mysuru_food)  # Output: Mysore Pak
+
+
+del: Removes the specified key.
+del karnataka_food["Mangaluru"]
+
+clear(): Empties the dictionary.
+karnataka_food.clear()
 ```
 
