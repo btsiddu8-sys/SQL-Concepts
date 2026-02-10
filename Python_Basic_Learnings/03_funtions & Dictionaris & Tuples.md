@@ -2,6 +2,34 @@
 
 
 ### Exaample 1
+A function is a reusable block of code that performs a specific task when called. Functions are useful to organize code, make it reusable, and reduce redundancy.
+
+Defining a Function
+You define a function using the def keyword followed by the function name, parentheses, and a colon :.
+```python
+def function_name(parameters):
+    # Block of code
+
+Example: Basic function to greet a user
+def greet():
+    print("Hello! Welcome to the Python course.")
+greet()
+
+Output:
+Hello! Welcome to the Python course.
+```
+#### Returning Values from a Function
+A function can return a value using the return keyword, which allows the output of the function to be reused elsewhere.
+
+Example: Function that adds two numbers and returns the result
+```python
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(10, 20)
+print("The sum is:", result)
+```
+
 ```python
 
 siddu_expence=[100,500,800,200]
