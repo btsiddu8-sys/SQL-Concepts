@@ -67,7 +67,7 @@ Global Name
 ```
 
 
-
+## Example 1
 ```python
 siddu_expence=[100,500,800,200]
 nanuve_expence=[10,50,40,100]
