@@ -184,6 +184,6 @@ You can create a dictionary using curly braces {} or the dict() function
 d={'siddu':7624882767,'appa':9880108856}
 print(d)
 print(type(d))
-tesr
+te
 ```
 
