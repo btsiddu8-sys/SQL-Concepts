@@ -30,8 +30,45 @@ result = add_numbers(10, 20)
 print("The sum is:", result)
 ```
 
-```python
+#### Default Parameter Values
+You can define a default value for a parameter, which is used if no argument is passed when the function is called.
 
+Example: Function with a default parameter
+```python
+def greet(name="Student"):
+    print(f"Hello, {name}! Welcome to the Python course.")
+
+greet()  # Uses default value "Student"
+greet("Geetha")  # Uses passed value "Geetha"
+
+
+Hello, Student! Welcome to the Python course.
+Hello, Geetha! Welcome to the Python course.
+```
+## Here are the sections for Nested Functions and Local/Global Variables:
+Local and Global Variables
+
+Local Variables are defined inside a function and are only accessible within that function.
+Global Variables are defined outside all functions and are accessible from anywhere in the code.
+Example: Local vs Global variables
+```python
+name = "Global Name"
+
+def greet():
+    name = "Local Name"
+    print(name)
+
+greet()  # Prints local variable
+print(name)  # Prints global variable
+
+O/P
+Local Name
+Global Name
+```
+
+
+
+```python
 siddu_expence=[100,500,800,200]
 nanuve_expence=[10,50,40,100]
 
